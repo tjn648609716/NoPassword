@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/status</item>
+        <item name="colorPrimaryDark">@color/status_deepen</item>
+        <item name="colorAccent">@color/status_deepen</item>
+    </style>
+
+    <style name="AppTheme.Launch" parent="QMUI.Compat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash</item>
+        <item name="colorPrimaryDark">@color/status</item>
+        <item name="qmui_config_color_blue">@color/status</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="QMUITopBarStyle">@style/QDTopBar</item>
+    </style>
+
+    <style name="AppTheme.Main" parent="QMUI.Compat.NoActionBar">
+        <item name="colorPrimaryDark">@color/status</item>
+        <item name="qmui_config_color_blue">@color/status</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="QMUITopBarStyle">@style/QDTopBar</item>
+    </style>
+
+
+    <style name="AppTheme.NoPrimaryDark" parent="QMUI.Compat.NoActionBar">
+        <item name="colorPrimaryDark">@color/status</item>
+        <item name="qmui_config_color_blue">@color/status</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.TopTransparent" parent="QMUI.Compat.NoActionBar">
+        <item name="colorPrimaryDark">#25000000</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <style name="QDTopBar" parent="QMUI.TopBar">
+        <item name="qmui_topbar_bg_color">@color/status</item>
+        <item name="qmui_topbar_title_color">@color/qmui_config_color_white</item>
+        <item name="qmui_topbar_height">48dp</item>
+        <item name="qmui_topbar_image_btn_height">48dp</item>
+        <item name="qmui_topbar_text_btn_color_state_list">@color/qmui_config_color_white</item>
+    </style>
+</resources>
